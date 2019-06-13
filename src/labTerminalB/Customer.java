@@ -27,9 +27,15 @@ public class Customer {
 		 */
 		
 		/**
-		 * TODO 3		10 Marks
-		 * Provide suitable specification for statement method 
+		 * frequentRenterPoints-> added amount in movies's price according to their categories
+		 * totalAmount -> total amount after adding rental points in movies's rent
+		 * result ->rental record of a customer
+		 * return result include all customer name and rental record
+		 * Bed smells-> alighment is not correct
+		 *  long method
+		 *  use of magic number
 		 */
+		
 		public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
