@@ -31,6 +31,18 @@ public class CustomerTest {
 	 * Provide at least two more test cases carefully chosen so that they satisfy our testing
 	 * strategy basics i.e. input partition etc
 	 */
+	public void testStatement2() {
+		me.addRental(r1);
+		me.addRental(r2);
+		//fail("Not yet implemented");
+		String output1 = "Rental Record for Allah Dita\r\n" + 
+				"	Spancer	3.5\r\n" + 
+				"	Speed	12.0";
+		if(output1.equals(me.statement()))
+		{
+			assert true;
+		}
+	}
 	
 
 }
